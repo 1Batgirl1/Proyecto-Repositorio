@@ -1,0 +1,49 @@
+Algoritmo sin_titulo
+//calculadora suma, resta, multiplicacion y divicion
+Escribir "Que quieres hacer?"
+Escribir "1: Sumar"
+Escribir "2: Restar"
+Escribir "3: multiplicar"
+Escribir "4: Dividir"
+Leer a;
+Si a=1 Entonces
+Escribir "digita tu valor";
+Leer b;
+Escribir "digite un segundo valor";
+Leer c;
+d<-b+c;
+Escribir "La suma de",b,"+",c,"=",d
+SiNo
+si a=2 Entonces
+Escribir "digita tu valor";
+Leer b;
+Escribir "digite un segundo valor";
+Leer c;
+d<-b-c;
+Escribir "La suma de",b,"-",c,"=",d
+SiNo
+
+si a=3 Entonces
+Escribir "digita tu valor";
+Leer b;
+
+d<-b*b;
+Escribir "La suma de",b,"*",b,"=",d
+SiNo
+
+si a=4 Entonces
+Escribir "digita tu valor";
+Leer b;
+Escribir "digite un segundo valor";
+Leer c;
+d<-b/c;
+Escribir "La suma de",b,"/",c,"=",d
+SiNo
+FinSi
+FinSi
+FinSi
+FinSi
+
+
+
+FinAlgoritmo
